@@ -246,9 +246,9 @@ align-items: center;
 /* MOVIE */
 .garis{
    border-bottom: 2px solid;
-   width: 80px;  
+   width: 80px; 
 }
-.container ,.movie  .garis{
+.movie{
     margin: 10%;
 }
  

@@ -243,12 +243,17 @@ align-items: center;
 
 
 
+
+
+
+
+
+
+
 /* MOVIE */
 .garis{
    border-bottom: 2px solid;
-   width: 80px;  
-}
-.container ,.movie  .garis{
-    margin: 10%;
+   width: 80px;
+   height: px;
 }
  

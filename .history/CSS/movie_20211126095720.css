@@ -199,8 +199,9 @@ align-items: center;
 }
 .img-slider{
    position: relative;
-   width: 100%;
-   height: 500px; 
+   width: 800px;
+   height: 500px;
+   margin: 10px;
    
 }
 .img-slider .slide{
@@ -211,7 +212,6 @@ align-items: center;
 .img-slider .slide img{
    z-index: 1;
    width: 100%;
-   height: 80vh;
    border-radius: 5px;
 }
 .img-slider .slide .info {
@@ -243,12 +243,17 @@ align-items: center;
 
 
 
+
+
+
+
+
+
+
 /* MOVIE */
 .garis{
    border-bottom: 2px solid;
-   width: 80px;  
-}
-.container ,.movie  .garis{
-    margin: 10%;
+   width: 80px;
+   height: px;
 }
  
