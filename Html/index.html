@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- <link rel="stylesheet" href="file://D:/Github/exp_movies/CSS/style.css"> -->
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+<body>
+<nav class="navbar">
+    <div class="nav-img">
+        <img src="/Img/Logo.png" alt="">
+    </div>
+    <div class="nav-item" id="myDIV">
+    <li><button class="btn active"><a href="" class="nav-item-link ">Movies</a></button></li>
+    <li><button class="btn"><a href="" class="nav-item-link">Tv-Movies</a></button></li>
+    <li><button class="btn"><a href="" class="nav-item-link">Genre</a></button></li>
+    <li>
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="search">
+        <i class="fa fa-toggle-on"></i>
+    </li>
+
+    </div>
+
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // Get the container element
+var btnContainer = document.getElementById("myDIV");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+    
+</body>
+</html>
