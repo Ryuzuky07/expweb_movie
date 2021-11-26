@@ -3,7 +3,7 @@ const app = express()
 const port = 2000
 const path = require('path');
 
-app.get('/', (req, res) => {
+app.get('/h', (req, res) => {
     console.log(__dirname)
   res.sendFile(path.join(""))
 })
