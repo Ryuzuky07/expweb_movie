@@ -41,9 +41,12 @@ body{
 }
 .inner-main-nav ul li:nth-child(1), .inner-main-nav ul li:nth-child(2){
 float: left;
-} 
-.inner-main-nav ul li:nth-child(5){  
-    margin-right: 100%;
+}
+.inner-main-nav ul li:nth-child(3), .inner-main-nav ul li:nth-child(4){
+    margin-right: 0 20px;
+}
+.inner-main-nav ul li:nth-child(5){ 
+  margin-top: 3.5%;
 }
 .logo{
    width: 30%;
@@ -253,37 +256,4 @@ align-items: center;
 .container ,.movie  .garis{
     margin: 10%;
 }
-.porto{
-    max-height: 100%;
-    display: flex;
-    margin-top: 3%;
-    
-}
-.folio:hover{
-    box-shadow:  5px 10px 8px 10px #888888;
-}
-.porto .folio{
-    min-width: 20%;
-    height: 500px; 
-    text-align: center;
-    background-color: transparent;
-    margin-right: 15%;
-    margin-bottom: 10%;
-    transition: 0.5s;
-    justify-items: center;
-}
-.porto .folio > img{
-    width: 140%;
-    height: 500px;
-    padding-bottom: 12px; 
-}
-.porto .folio p {
-    text-align: left ;
-    color: #003F6D;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px; 
-    margin-bottom: 50%;
-}
-
-
  

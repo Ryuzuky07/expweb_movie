@@ -275,7 +275,8 @@ align-items: center;
 .porto .folio > img{
     width: 140%;
     height: 500px;
-    padding-bottom: 12px; 
+    padding-bottom: 12px;
+    border-bottom: 2px solid #003F6D;
 }
 .porto .folio p {
     text-align: left ;
