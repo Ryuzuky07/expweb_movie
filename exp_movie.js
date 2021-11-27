@@ -33,5 +33,5 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(""))
 })
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}/home`)
+    console.log(`Example app listening at http://localhost:${port}/`)
   })
