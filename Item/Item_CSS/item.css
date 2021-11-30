@@ -3,30 +3,33 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif; 
 }
-main{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    margin: 0 15% 70px 15%;
+
+body{
+    line-height: 1.8;
+    background-color: black;
+}
+.bodypage{
+    margin: 0 13%;
+    background-color: white;
+}
+.bodypage_inner{
+    margin: 5px;
+}
+.line{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
 }
 
+.synopsis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: darkgray;
+    border-radius: 4pt;
+    margin: 5px 0;
+}
 .info{
     display: grid;
-    grid-template-rows: 30% 70%;
-}
-.sub_info{
-    display: grid;
-    grid-template-rows: 50% 50%;
-}
-.sub_info1{
-    display: flex;
-    flex-direction: row;
-}
-#PG{
-    height: 18px;
-    border: black solid 2px;
-    margin-right: 10%;
-}
-.sub_info2{
-    display: flex;
-    flex-direction: row;
+    grid-template-columns: 30% 70%;
 }
