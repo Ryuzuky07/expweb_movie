@@ -20,7 +20,7 @@ body{
     margin-bottom: 20px;
 }
 
-.synopsis{
+.text_block{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,4 +32,13 @@ body{
 .info{
     display: grid;
     grid-template-columns: 30% 70%;
+}
+
+.text_margin{
+    margin: 5px;
+}
+
+.vid-flex{
+    display: grid;
+    grid-template-columns: 3% 94% 3%;
 }
