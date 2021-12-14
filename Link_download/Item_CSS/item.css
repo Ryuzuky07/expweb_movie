@@ -12,7 +12,7 @@ body{
     margin: 0 14%;
     background-color: white;
 }
-.bodypage_inner{
+.bodypage-inner{
     margin: 8px;
 }
 .line{
@@ -20,7 +20,7 @@ body{
     margin-bottom: 20px;
 }
 
-.text_block{
+.text-block{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +31,7 @@ body{
 }
 .synopsis{
     margin-top: 10px;
+    margin-bottom: 90px;
 }
 
 .info{
@@ -38,6 +39,39 @@ body{
     grid-template-columns: 30% 70%;
 }
 
-.text_margin{
+.vid-flex{
+    display: flex;
+    justify-content: center;
+}
+.text-margin{
     margin: 5px;
+}
+
+.click-download{
+    padding: 7px;
+}
+.download-vid{
+    display: flex;
+    flex-direction: row;
+}
+.side-left{
+    width: 10%;
+    background-color: darkgray;
+}
+.text-eps{
+    padding: 5px;
+    text-align: center;
+}
+.side-right{
+    width: 90%;
+}
+.link-download{
+    padding: 5px;
+    background-color: whitesmoke;
+}
+.link-download a{
+    text-decoration: none;
+}
+.download-margin{
+    margin-top: 10px;
 }
